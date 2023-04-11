@@ -8,13 +8,8 @@ const body = await response.text();
 
 const $ = cheerio.load(body);
 
-let data = $(".mw-page-container-inner");
+let data = $(".wikitable");
 
 console.log(data.html());
 
 
-/*
-let data = $("mw-page-container-inner").html();
-
-console.log(data);
-*/
