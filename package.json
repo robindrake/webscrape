@@ -1,0 +1,16 @@
+{
+  	"name": "web-scrape",
+  	"version": "0.0.1",
+  	"private": "true",
+  	"type": "module",
+  	"description": "Working on learning some basic web scraping tools with node.js",
+  	"main": "index.js",
+  	"keywords": [],
+  	"author": "Robyn Drake",
+  	"license": "ISC",
+  	"dependencies": {
+  	  	"cheerio": "^1.0.0-rc.12",
+  	  	"node-fetch": "^3.3.1",
+  	  	"puppeteer": "^19.8.5"
+  	}
+}
