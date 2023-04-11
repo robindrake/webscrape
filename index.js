@@ -6,7 +6,11 @@ const url = "https://en.wikipedia.org/wiki/List_of_Presidents_of_the_United_Stat
 const response = await fetch(url);
 const body = await response.text();
 
-console.log(body);
+const $ = cheerio.load(body);
+
+let data = $(".mw-page-container-inner");
+
+console.log(data.html());
 
 
 /*
